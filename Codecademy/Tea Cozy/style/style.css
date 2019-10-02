@@ -1,0 +1,140 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    top: 0;
+    height: 69px;
+    z-index: 100;
+}
+nav {
+    display: flex;
+    height: 69px;
+    align-items: center;
+    width: 100%;
+    margin-top: 0;
+    border-bottom: 1px solid seashell;
+}
+#logo {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+#menu {
+    width: 50%;
+}
+#logo img{
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+#menu ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+#menu li {
+    margin: auto 10px;
+}
+#menu a {
+    color: white;
+}
+main {
+    width: 100%;
+    top: 69px;
+    
+}
+#mission {
+    background-image: url("/images/img-mission-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mission div {
+    background-color: black;
+    width: 100%;
+}
+@media only screen and (max-width: 812px) {
+    nav {
+        display: block;
+    }
+    #logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #menu li {
+        display: float;
+        text-align: center;
+    }
+}
+#tea-of-month {
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+#tea-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#tea-img div {
+    margin: 10px 10px;
+}
+#tea-img img{
+    max-width: 300px;
+    max-height: 200px;
+
+}
+#locations {
+    background-image: url("/images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    position: relative;
+    top: 100px;
+    min-height: 500px;
+}
+#address {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+#address div{
+    background-color: black;
+    margin: 20px 20px;
+    width: 300px;
+}
+footer {
+    position: relative;
+    top: 100px;
+    margin-bottom: 30px;
+}
+#copyright {
+    text-align: left;
+    margin-left: 20px;
+}

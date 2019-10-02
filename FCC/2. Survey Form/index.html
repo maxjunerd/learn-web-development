@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <div id="container">
+      <p id="description">Let us know how we can improve freeCodeCamp</p>
+      <form id="survey-form">
+        <div id="form">
+          <div id="box1" class="right-align">
+            <label id="name-label" for="name">* Name: </label>
+          </div>
+          <div id="box2" class="left-align">
+            <input
+              type="text"
+              class="text-input"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div id="box3" class="right-align">
+            <label id="email-label" for="email">* Email: </label>
+          </div>
+          <div id="box4" class="left-align">
+            <input
+              type="email"
+              class="text-input"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div id="box5" class="right-align">
+            <label id="number-label" for="number">* Age: </label>
+          </div>
+          <div id="box6" class="left-align">
+            <input
+              type="number"
+              min="0"
+              max="120"
+              class="text-input"
+              name="number"
+              id="number"
+              placeholder="Enter your age"
+              required
+            />
+          </div>
+          <div id="box7" class="right-align">
+            <label id="job-label" for="job">Which option best describes your current role?</label>
+          </div>
+          <div id="box8" class="left-align">
+              <select id="dropdown" name="job">
+                  <option disabled value>Select an option</option>
+                  <option value="student">Students</option>
+                  <option value="job">Full time job</option>
+                  <option value="learner">Full time learner</option>
+                  <option value="preferNo">Prefer not to say</option>
+                  <option value="other">Other</option>
+              </select>
+          </div>
+          <div id="box9" class="right-align">
+              <label id="tellFriend-label" for="tellFriend"><br>How likely is that you would recommend freeCodeCamp to a friend?</label>
+          </div>
+          <div id="box10" class="left-align">
+              <ul id="tellFriend">
+                  <li class="radio"><label><input name="tellFriend" type="radio" value="1"> Definitely</label></li>
+                  <li class="radio"><label><input name="tellFriend" type="radio" value="2"> Maybe</label></li>
+                  <li class="radio"><label><input name="tellFriend" type="radio" value="3"> Not sure</label></li>
+              </ul>
+          </div>
+          <div id="box11" class="right-align">
+              <label id="mostLike-label" for="mostLike">What do you like most in FCC?</label>
+          </div>
+          <div id="box12" class="left-align">
+              <select id="mostLike" name="mostLike">
+                  <option disabled value>Select an option</option>
+                  <option value="challenges">Challenges</option>
+                  <option value="projects">Projects</option>
+                  <option value="community">Community</option>
+                  <option value="openSource">Open source</option>
+              </select>
+          </div>
+          <div id="box13" class="right-align">
+              <label id="futureImprove-label" for="futureImprove"><br>Things that should be improved in the future (check that all apply)</label>
+          </div>
+          <div id="box14" class="left-align">
+              <ul id="futureImprove" class="ul">
+                  <li class="checkbox"><label><input name="futureImprove" type="checkbox" value="1"> Front-end Projects</label></li>
+                  <li class="checkbox"><label><input name="futureImprove" type="checkbox" value="2"> Back-end Projects</label></li>
+                  <li class="checkbox"><label><input name="futureImprove" type="checkbox" value="3"> Data Visualization</label></li>
+                  <li class="checkbox"><label><input name="futureImprove" type="checkbox" value="4"> Challenges</label></li>
+                  <li class="checkbox"><label><input name="futureImprove" type="checkbox" value="5"> Open Source Community</label></li>
+                  <li class="checkbox"><label><input name="futureImprove" type="checkbox" value="6"> Gitter Help Room</label></li>
+                  <li class="checkbox"><label><input name="futureImprove" type="checkbox" value="7"> Videos</label></li>
+                  <li class="checkbox"><label><input name="futureImprove" type="checkbox" value="8"> City Meetups</label></li>
+                  <li class="checkbox"><label><input name="futureImprove" type="checkbox" value="9"> Wiki</label></li>
+                  <li class="checkbox"><label><input name="futureImprove" type="checkbox" value="10"> Forum</label></li>
+                  <li class="checkbox"><label><input name="futureImprove" type="checkbox" value="11"> Additional Courses</label></li>
+              </ul>
+          </div>
+          <div id="box15" class="right-align">
+              <label id="comment-label" for="comment">Any Comments or Suggestions?</label>
+          </div>
+          <div id="box16" class="left-align">
+              <textarea id="comment" class="text-input" style="height: 50px;"></textarea>
+          </div>
+          
+      </div>
+      <br>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+    </div>
+  </body>
+</html>

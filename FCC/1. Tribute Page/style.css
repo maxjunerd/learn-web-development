@@ -1,0 +1,50 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  }
+  #title {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  #main {
+    background: #e7ebe9;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+  }
+  #quote {
+    font-style: italic;
+    margin-top: 0;
+  }
+  #img-div {
+    padding: 30px 0 0px 0;
+    display: auto;
+    margin: auto;
+    max-width: 50;
+  }
+  #image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  #img-caption-box {
+    max-width: 650px;
+    margin: auto;
+  }
+  #biography-text {
+    text-align: left;
+  }
+  #tribute-info {
+    display: grid;
+    grid-template-columns: 1fr 13fr 1fr;
+  }
+  iframe {
+    text-align: right;
+  }
+  #video-caption {
+    margin: 0;
+  }
+  #link-bottom {
+    margin-bottom: 0px;
+  }  

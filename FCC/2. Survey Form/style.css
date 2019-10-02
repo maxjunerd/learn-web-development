@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    background: #b7e5fc;
+    font-family: 'Open Sans', sans-serif;
+  }
+  #container {
+    margin: auto;
+    text-align: center;
+    background: white;
+    max-width: 800px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .right-align {
+    text-align: right;
+    margin: 5px;
+  }
+  .left-align {
+    text-align: left;
+    margin: 5px;
+  }
+  #form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    width: 100%;
+    margin: auto;
+  }
+  .text-input {
+    height: 20px;
+    width: 280px;
+    border: 1px solid;
+    border-radius: 2px;
+  }
+  ul {
+      list-style: none;
+  }
+  .radio, .checkbox {
+      position: relative;
+      left: -43px;
+      padding: 5px;
+  }
+  button {
+      width: 75px;
+      height: 40px;
+      border-radius: 5px;
+      color: white;
+      background: #0486ff;
+  }
+  @media screen and (max-width: 500px) {
+    #form {
+      grid-template-columns: 1fr;
+    }
+    .right-align {
+      text-align: left;
+    }
+    .left-align {
+      text-align: left;
+    }
+  }
