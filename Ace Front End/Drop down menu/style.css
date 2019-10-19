@@ -1,0 +1,30 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#nav-list {
+    list-style: none;
+    display: flex;
+    background-color: #e4e3ec;
+    margin-top: 0px;
+}
+#nav-list li {
+    margin: 1em;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#drop-items {
+    list-style: none;
+    position: absolute;
+    background-color: #e4e3ec;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
